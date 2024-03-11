@@ -5,7 +5,7 @@ AWS EKS OIDC Module
 
 ```hcl
 module oidc {
-  source                    = "git@github.com:ordinlabs/terraform-aws-eks-oidc.git?ref=v0.0.1"
+  source                    = "git@github.com:ordinlabs/terraform-aws-eks-oidc.git?ref=v0.0.2"
   cluster_oidc_provider_arn = "cluster oidc provider arn"
   cluster_oidc_issuer_url   = "cluster oidc issuer url"
   service_account_name      = "name of the service account"
