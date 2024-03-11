@@ -1,4 +1,4 @@
-### AWS EKS OIDC Module
+AWS EKS OIDC Module
 =====================================
 
 ## Example Usage
