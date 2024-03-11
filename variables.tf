@@ -31,7 +31,7 @@ variable namespace {
   default = "kube-system"
 }
 
-variable "policy_arns" {
+variable "iam_policy_arns" {
   type = list(string)
   description = "List of IAM policy ARNs to attach to the role"
 }
